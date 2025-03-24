@@ -1,0 +1,5 @@
+/.env
+/models/__pycache__
+__pycache__
+/services/__pycache__
+/venv
