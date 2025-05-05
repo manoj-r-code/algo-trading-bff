@@ -7,6 +7,10 @@ kite_routes = Blueprint('kite_routes', __name__)
 def home():
     return "Hello, Flask with Routes!"
 
+@kite_routes.route('/ping') 
+def ping():
+    return "pong!"
+
 @kite_routes.route('/about')
 def about():
     return "This is the About Page for Kite."
